@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "transmission_bot"
+version = "0.1.0"
+description = ""
+authors = ["rishis07 <risheric@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+transmissionrpc = "^0.11"
+python-decouple = "^3.3"
+python-telegram-bot = "^12.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
